@@ -1,0 +1,398 @@
+body {
+
+    background-color:#F5E6D3 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#F5E6D3;
+    margin: 20px;
+}
+h1 {
+     color: #2C2C2C;
+}
+
+h2 {
+    color: #4B2E2B;
+}
+
+h3 {
+  color: #783939;
+}
+
+h4 {
+  color: #783939;
+}
+
+h5 {
+  color: #7B3F3F;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large
+  
+}
+
+li{
+    color: #ffffff;
+}
+
+
+/* Logo styling */
+.logo {
+  width: 120px;   /* adjust size */
+  height: auto;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: url("Images/Hero\ banner.png") no-repeat center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  text-align: center;
+  color: #F5E6D3;
+}
+.hero-text h2{
+  font-size: 60px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #E3B23C;
+  color: #4B2E2B;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #CDA434;
+}
+
+/* About Section */
+.about, .services-preview, .gallery-preview, .cta {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Service Cards */
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.card {
+  background-color: #783939;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+.visit-us {
+  margin-top: 0; /* remove extra gap above */
+  padding: 40px 20px; /* slightly smaller padding */
+}
+
+
+/* Call to Action */
+.cta {
+  background-color: #7B3F3F;
+  color: #e38b18;
+  padding: 60px 20px;
+  border-radius: 15px;
+}
+
+/* NAVBAR CLOCK STYLING */
+#clock {
+  color: #F5E6D3; /* light latte cream */
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #4B2E2B; /* espresso brown */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #F5E6D3;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #C19A6B; /* caramel accent */
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100;
+    background-color: #4B2E2B;   /*Esspresso Brown*/
+    padding: 15px 0;
+    z-index: 1000;
+
+     /* Softer, premium background */
+  background: linear-gradient(90deg, #4B2E2B, #7B3F3F); /* espresso gradient */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* shadow for depth */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar links */
+.navbar a {
+  color: #F5E6D3; /* latte cream */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #E3B23C; /* sunflower yellow */
+  text-shadow: 0 0 5px rgba(227, 178, 60, 0.6);
+}
+
+.content {
+    padding: 20px;
+}
+
+body{
+    background-image: url(Images/Background\ B&B.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.gallery img {
+  transition: transform 0s ease, box-shadow 0s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slides {
+  display: flex;
+  animation: slide 32s infinite alternate;
+}
+.slides img {
+  width: 100%;
+}
+@keyframes slide {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-100%); }
+  40% { transform: translateX(-200%); }
+  60% { transform: translateX(-300%); }
+  80% { transform: translateX(-400%); }
+  100% { transform: translateX(0); }
+}
+
+#contact {
+  background-color: #f9f5f0;
+  padding: 40px;
+  border-radius: 12px;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  text-align: center;
+  color: #3E2723;
+  font-family: 'Playfair Display', serif;
+}
+
+#contact p {
+  text-align: center;
+  color: #5C4033;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers both label and input together */
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: block;
+  color: #F5E6D3;                 /* latte cream */
+  margin-bottom: 6px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); /* gives subtle lift */
+}
+
+label {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+
+
+input, textarea, select {
+  width: 80%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 12px;
+  border: 1px solid #D7CCC8;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #A1887F;
+  outline: none;
+  box-shadow: 0 0 6px rgba(161, 136, 127, 0.5);
+}
+
+button {
+  background-color: #5C4033;
+  color: #F5E6D3;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3E2723;
+}
+
+/* Subtle hover and focus effects */
+input:hover, textarea:hover, select:hover {
+  background-color: #fdf8f4;              /* a soft cream hover background */
+  border-color: #BCAAA4;                  /* gentle warm tone border */
+}
+
+input:focus, textarea:focus, select:focus {
+  background-color: #fffaf5;              /* slightly lighter focus color */
+  border-color: #8D6E63;                  /* rich mocha tone for focus */
+  box-shadow: 0 0 8px rgba(141, 110, 99, 0.4);
+  transform: scale(1.02);                 /* tiny pop when typing */
+  transition: all 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #8D6E63; /* mocha tone */
+  opacity: 0.9;
+  font-style: italic;
+}
+/* General desktop styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* This kicks in for phones and smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+}
