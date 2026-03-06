@@ -375,12 +375,7 @@ body {
 }
 
 /* This kicks in for phones and smaller screens */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-  }
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
   .gallery img {
     width: 100%;
@@ -396,5 +391,6 @@ body {
     font-size: 1.4rem;
   }
 }
+
 
 
