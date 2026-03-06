@@ -46,7 +46,7 @@ li{
 
 /* Hero Section */
 .hero {
-  background: url("Images/Hero\ banner.png") no-repeat center/cover;
+  background: url("Hero\ banner.png") no-repeat center/cover;
   height: 90vh;
   display: flex;
   align-items: last baseline;
@@ -199,7 +199,7 @@ li{
 }
 
 body{
-    background-image: url(Images/Background\ B&B.png);
+    background-image: url(Background\ B&B.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -396,3 +396,4 @@ body {
     font-size: 1.4rem;
   }
 }
+
